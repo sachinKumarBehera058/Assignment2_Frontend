@@ -32,7 +32,7 @@ const App = () => {
     <div className="app-container">
       <h1 className='product-heading'>Product List</h1>
       <ProductList className="Cardlist_box" items={products} />
-      <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+      <Pagination className="page_paginate" currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     </div>
   );
 };

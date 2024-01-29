@@ -1,24 +1,41 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: GT-America-Regular;
+  font-family: 'GT-America-Regular';
 }
 
-.app-container{
-  background: #fff;
-  color: #24282a;
-  font-size: 14px;
-  display: block;
-  height: 100vh;
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
-.Cardlist_box{
-  display: flex;
+.Cardlist_box {
+  padding: 0 5px;
 }
 
-.product-heading{
+.product-heading {
   text-align: center;
   font-size: 40px;
   padding: 5px;
+}
+
+.page_paginate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+@media only screen and (max-width: 1150px) {
+  .app-container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .Cardlist_box{
+    padding: 0 5px;
+  }
 }

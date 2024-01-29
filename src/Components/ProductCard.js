@@ -8,8 +8,11 @@ const ProductCard = ({ item }) => {
                 <img src={item.image} alt={item.model} />
             </div>
             <div className="prodDetails">
-                <h3>{item.model}</h3>
-                <p>{item.colors} <b> ${ item.listPrice}</b></p>
+                <h4>{item.model}</h4>
+                <div>
+                    <small>{item.colors }</small>
+                    <h3 className='prod_Price'> ${item.listPrice}</h3>
+                </div>
             </div>
         </div>
     );
