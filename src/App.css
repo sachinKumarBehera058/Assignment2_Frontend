@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: GT-America-Regular;
+}
+
+.app-container{
+  background: #fff;
+  color: #24282a;
+  font-size: 14px;
+  display: block;
+  height: 100vh;
+}
+
+.Cardlist_box{
+  display: flex;
+}
+
+.product-heading{
+  text-align: center;
+  font-size: 40px;
+  padding: 5px;
+}
