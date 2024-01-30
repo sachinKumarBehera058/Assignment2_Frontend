@@ -1,6 +1,8 @@
+// App.js
 import React, { useState, useEffect } from 'react';
 import ProductList from './Components/ProductList';
 import Pagination from './Components/Pagination';
+import Navbar from './Components/NavBar'; // Import the Navbar component
 import "./App.css";
 
 const App = () => {
@@ -29,11 +31,14 @@ const App = () => {
   };
 
   return (
-    <div className="app-container">
-      <h1 className='product-heading'>Product List</h1>
+    <div className='app'>
+      <Navbar />
+      <div className="app-container">
       <ProductList className="Cardlist_box" items={products} />
       <Pagination className="page_paginate" currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
     </div>
+    </div>
+    
   );
 };
 

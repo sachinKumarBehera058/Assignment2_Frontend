@@ -9,6 +9,9 @@
 
 }
 
+/* .productCard:hover{
+
+} */
 .prodImg {
   mix-blend-mode: multiply;
   display: block;
@@ -39,7 +42,7 @@
   letter-spacing: .75px;
   line-height: 20px;
   color: #24282A;
-  font-weight: 600;
+  font-weight: 400;
   font-family: 'GT-America-bold';
 }
 
@@ -47,7 +50,7 @@
   font-size: 16px;
   letter-spacing: .75px;
   line-height: 20px;
-  font-weight: 800;
+  font-weight: 700;
   color: #24282A;
   font-family: 'GT-America-bold';
 }
