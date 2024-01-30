@@ -49,23 +49,20 @@
   line-height: 20px;
   font-weight: 800;
   color: #24282A;
-  font-family: GT-America-bold;
+  font-family: 'GT-America-bold';
 }
 
-.prodDetails small{
-    color: #000;
-    font-weight: 400;
-    font-family: 'GT-America-light';
-    margin: auto;
-    margin-right: 0.5rem;
-}
-
-.prodDetails div {
-  display: inline-flex;
-}
 
 .productCard:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 8px;
 }
 
 
