@@ -1,6 +1,6 @@
 .productCard {
   width: 25%;
-  border: 0.5px solid #ccc;
+  /* border: 0.5px solid #ccc; */
   border-radius: 8px;
   padding: 8px;
   text-align: center;
@@ -36,12 +36,12 @@
 }
 
 .prodDetails h4 {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .75px;
   line-height: 20px;
-  color: var(--black);
-  font-weight: 700;
-  font-family: GT-America-bold;
+  color: #24282A;
+  font-weight: 600;
+  font-family: 'GT-America-bold';
 }
 
 .prodDetails h3 {
@@ -49,14 +49,14 @@
   letter-spacing: .75px;
   line-height: 20px;
   font-weight: 800;
-  color: var(--black);
+  color: #24282A;
   font-family: GT-America-bold;
 }
 
 .prodDetails small{
     color: #000;
     font-weight: 400;
-    font-family: GT-America-light;
+    font-family: 'GT-America-light';
     margin: auto;
     margin-right: 0.5rem;
 }
