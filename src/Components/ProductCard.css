@@ -68,6 +68,26 @@
   margin-top: 8px;
 }
 
+.productCard {
+  /* ... existing styles ... */
+  position: relative;
+  overflow: hidden;
+}
+
+.addToCartIcon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #333;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.productCard.hovered {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 @media only screen and (max-width:768px)
 {

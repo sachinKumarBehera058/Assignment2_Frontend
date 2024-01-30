@@ -5,9 +5,11 @@ import Pagination from './Components/Pagination';
 import Navbar from './Components/NavBar'; // Import the Navbar component
 import "./App.css";
 
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [products, setProducts] = useState([]);
+  const [cartCount, setCartCount] = useState(0);
   const productsPerPage = 20; 
   const [totalPages, setTotalPages] = useState(1);
 
@@ -30,15 +32,18 @@ const App = () => {
     setCurrentPage(pageNumber);
   };
 
+  const handleAddToCart = () => {
+    setCartCount(cartCount + 1);
+  };
+
   return (
     <div className='app'>
-      <Navbar />
+      <Navbar cartCount={cartCount} />
       <div className="app-container">
-      <ProductList className="Cardlist_box" items={products} />
-      <Pagination className="page_paginate" currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+        <ProductList items={products} onAddToCart={handleAddToCart} />
+        <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
+      </div>
     </div>
-    </div>
-    
   );
 };
 
