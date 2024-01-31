@@ -37,6 +37,9 @@ const App = () => {
   return (
     <div className='app'>
       <Navbar cartCount={cartCount} />
+      <div className='banner'>
+        <img src="https://wearyourroots.com/cdn/shop/collections/hats-429055_1445x.jpg?v=1697836813" alt="banner-img" />
+      </div>
       <div className="app-container">
         <ProductList items={products} onAddToCart={handleAddToCart} />
         <Pagination currentPage={currentPage} totalPages={totalPages} onPageChange={handlePageChange} />
