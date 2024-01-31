@@ -46,8 +46,8 @@
   letter-spacing: .75px;
   line-height: 20px;
   color: #24282A;
-  font-weight: 500;
-  font-family: 'GT-America-bold';
+  font-weight: 600;
+  font-family: 'Arial';
 }
 
 .prodDetails h3 {
@@ -56,7 +56,7 @@
   line-height: 20px;
   font-weight: 900;
   color: #24282A;
-  font-family: 'GT-America-bold';
+  font-family: 'Arial';
 }
 
 
