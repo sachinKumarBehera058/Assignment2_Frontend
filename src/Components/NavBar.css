@@ -17,7 +17,8 @@
     color: red;
     position: fixed;
     top: 3px;
-    font-size: 26px;
+    font-size: 30px;
+    transform: rotate(15deg);
 }
 
 .cart-icon {
