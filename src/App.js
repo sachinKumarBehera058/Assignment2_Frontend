@@ -1,10 +1,8 @@
-// App.js
 import React, { useState, useEffect } from 'react';
 import ProductList from './Components/ProductList';
 import Pagination from './Components/Pagination';
-import Navbar from './Components/NavBar'; // Import the Navbar component
+import Navbar from './Components/NavBar';
 import "./App.css";
-
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);

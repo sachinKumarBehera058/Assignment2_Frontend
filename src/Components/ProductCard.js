@@ -1,5 +1,3 @@
-// ProductCard.js
-
 import React, { useState } from 'react';
 import RatingStars from './RatingStars';
 import { FaRegStar, FaShoppingCart } from 'react-icons/fa';
@@ -17,7 +15,7 @@ const ProductCard = ({ item, onAddToCart }) => {
 
   const handleAddToCart = () => {
     setAddToCartCount(addToCartCount + 1);
-    onAddToCart(); // Notify the parent component about the click
+    onAddToCart(); 
   };
 
   return (

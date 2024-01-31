@@ -19,12 +19,21 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding-right: 20px;
 }
 
-.cart-icon span {
-    margin-left: 5px;
-    font-weight: bold;
-  }
+.counter {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+}
 
 .navbar {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

@@ -9,7 +9,7 @@ const Navbar = ({ cartCount }) => {
       <h1>Groovin Bros</h1>
       <div className="cart-icon">
         <FaShoppingCart />
-        <span>{cartCount}</span>
+        {cartCount > 0 && <span className='counter'>{cartCount}</span>}
       </div>
     </div>
   );
